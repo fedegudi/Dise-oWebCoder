@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Las Pastillas del Abuelo es una banda de rock argentino.
+    Podra un formulaio de contacto para ponerse en contacto con nosotros para mas informacion.">
+    <meta name="keywords" content="HTML, CSS, BOOTSTRAP, SASS, PASTILLAS DEL ABUELO, DISCOS PASTILLAS DEL ABUELO, IMAGENES PASTILLAS DEL ABUELO">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Contacto Las Pastillas del Abuelo</title>
+</head>
+<body>
+    <!-- Header-->
+    <div class="contenedor">            
+        <div class="logo">
+            <a href="../../index.html "><img src="../img/logo.jpg" alt=""></a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="discos.html">Discos</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+</div>
+<hr>
+<!-- Contenido -->
+<section class="section">
+    <div>
+        <form action="#">
+            <div class="formulario">    
+                <div>
+                    <label for="nombre" class="camponombre">Nombre:</label>
+                    <input class="campo" type="text" name="nombre" placeholder="Ingrese su nombre..">
+                </div>
+                <div>
+                    <label class="campoapellido" for="apellido">Apellido:</label>
+                    <input class="campo" type="text" name="apellido" placeholder="Ingrese su apellido..">
+                </div>
+                <div>
+                    <label for="email">Ingrese su E-mail:</label>
+                    <input class="campo" type="email" name="email" placeholder="Ingrese su e-mail..">
+                </div>
+                <div>
+                    <label for="estadoCivil">Estado Civil:</label>
+                    <select name="estadoCivil">
+                        <option value="soltero">Soltero/a</option>
+                        <option value="casado">Casado/a</option>
+                        <option value="divorciado">Divorciado/a</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="noticias">Desea recibir noticias?</label>
+                    <input class="checkbox" type="checkbox">
+                </div>
+                <div>
+                    <label for="comentarios">Comentarios:</label><br>
+                    <textarea class="textarea" rows="6" cols="30" placeholder="Deje su comentario aca.."></textarea><br>
+                    <input class="boton" type="submit" value="Enviar Formulario"></input>
+                    <input class="boton" type="reset" value="Limpiar Formulario"></input>
+                </div> 
+            </div>       
+            </form>
+    </div>
+</section>
+<hr>
+<!-- Footer -->
+<footer>
+    <div class="container contfooter">
+        <div class="row row-cols-4 contenedorfooter">
+          <div class="col" id="copy">
+            <p>© Copyright 2020</p>
+          </div>
+          <div class="col-6" id="siguenos">
+            <p>Siguenos en:</p>
+          </div>
+          <div class="col" id="redes">
+                <a href="https://www.youtube.com/c/laspastillasdelabuelo/featured" target="_blank">
+                <img src="../img/youtube.png" width="45" height="45" alt="youtube"></a>
+                <a href="https://www.instagram.com/laspastillasdelabuelo/?hl=es-la" target="_blank">
+                <img src="../img/instagram.jpg" width="45" height="45" alt="instagram"></a></a>
+                <a href="https://twitter.com/delabuelo?lang=es" target="_blank">
+                <img src="../img/twitter.jpg" width="45" height="45" alt="twitter"></a></a>
+          </div>
+        </div>
+      </div>
+</footer>
+</body>
+</html>
